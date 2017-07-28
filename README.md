@@ -10,4 +10,4 @@ I add a batch script based on his work to reverse a list of ip at a time and sav
 
 
 ### Sample
-![image](![image](https://github.com/starnightcyber/ip-reverse-to-domain/blob/master/reverse_ip_batch.py_usage.png))
+![image](https://github.com/starnightcyber/ip-reverse-to-domain/blob/master/reverse_ip_batch.py_usage.png)
