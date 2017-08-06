@@ -16,6 +16,7 @@ class bc:
     R = '\033[91m' # Red
     ENDC = '\033[0m' # end colors
 
+
 if sys.platform == 'win32':
 	bc.P = ''
 	bc.B = ''
