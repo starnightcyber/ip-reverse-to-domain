@@ -43,7 +43,7 @@ def request(target, httpsproxy=None, useragent=None):
 	global contenttype
 
 	if not useragent:
-		useragent = "Mozilla/5.0 (X11; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0 Iceweasel/22.0"
+		useragent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:54.0) Gecko/20100101 Firefox/54.0"
 	else:
 		print "["+ bc.G + "+" + bc.ENDC + "] User-Agent: " + useragent
 
@@ -110,7 +110,7 @@ def main():
 		print '[%d] - %s' % (index, target)
 		fw.write('[%d] - %s' % (index, target) + '\n')
 
-		# sleep 3 seconds for not to put too much press on the server
+		# sleep 3 seconds for not to put too much pressure on the server
 		time.sleep(3)
 		obj = request(target.strip())			# request
 		print obj
